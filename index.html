@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Content/css/style.css">
+</head>
+<body ng-app="app">
+    <div class="wrap" ng-controller="fromController">
+        <p>select:</p>
+        <p><input type="text" class="sel" ng-model="user"></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>    </th>
+                    <th ng-click="change('name')">姓名</th>
+                    <th ng-click="change('address')">位置</th>
+                    <th ng-click="change('hou')">号码</th>
+                    <th ng-click="change('qiu')">球队</th>
+                    <th ng-click="change('picket')">票数</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="arr in data | orderBy : (order2+order1) | filter: user">
+                    <td><img ng-src="{{arr.img}}" alt=""></td>
+                    <td><input type="text" value="{{arr.name}}"></td>
+                    <td><input type="text" value="{{arr.address}}"></td>
+                    <td><input type="text" value="{{arr.hou}}"></td>
+                    <td><input type="text" value="{{arr.qiu}}"></td>
+                    <td><input type="text" value="{{arr.picket}}"></td>
+                    <td><button ng-click='write(arr.name)'>{{arr.btn1}}</button><button ng-click='remove(arr.name)'>{{arr.btn2}}</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="Scripts/angular/angular.min.js"></script>
+    <script src="App/app.js"></script>
+    <script src="App/Servies/factory.js"></script>
+    <script src="App/Controller/controller.js"></script>
+</body>
+</html>

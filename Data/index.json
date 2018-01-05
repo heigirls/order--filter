@@ -1,0 +1,72 @@
+[
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "W",
+        "address": "得分后卫（SG）",
+        "hou":0,
+        "qiu":"雷霆",
+        "picket": 2017,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "J",
+        "address": "大前卫（PF）",
+        "hou":23,
+        "qiu":"骑士",
+        "picket": 1988,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "C",
+        "address": "得分后卫（SG）",
+        "hou":23,
+        "qiu":"勇士",
+        "picket": 1865,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "H",
+        "address": "小前锋（SF）",
+        "hou":23,
+        "qiu":"火箭",
+        "picket": 1865,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "D",
+        "address": "小前锋（SF）",
+        "hou":35,
+        "qiu":"勇士",
+        "picket": 1530,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "P",
+        "address": "控球后卫（PG）",
+        "hou":3,
+        "qiu":"快船",
+        "picket": 1600,
+        "btn1":"编辑",
+        "btn2":"删除"
+    },
+    {
+        "img": "Content/images/img1.jpg",
+        "name": "A",
+        "address": "中锋（C）",
+        "hou":7,
+        "qiu":"尼克斯",
+        "picket": 1499,
+        "btn1":"编辑",
+        "btn2":"删除"
+    }
+]
